@@ -1,6 +1,4 @@
-.page{
-    
-}
+
 body{
     background-color: rgb(252, 183, 156);
     text-align: center;
@@ -13,6 +11,10 @@ body{
     font-size: 4rem;
 
 
+}
+.notice{
+    font-style: italic;
+    font-weight: bold;
 }
 label{
     display: block;
