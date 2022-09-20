@@ -6,17 +6,25 @@ const resultbox= document.querySelector("#resultbox")
     function compareValues(sum,luckynumber){
         if(sum%luckynumber===0){
             resultbox.innerText=("BINGO!! you are lucky😍");
-         } else{
-            resultbox.innerText=("SORRY you are unlucky😒");
-            }
+         }  else 
+         { resultbox.innerText=("SORRY you are unlucky😒");}
+         
         }
+        
     
 
 
 function confirmbirthdaylucky(){
-    const dob = dateofbirth.value;
+    if (dateofbirth.value !=="" || luckynumber.value !==""){
+        const dob = dateofbirth.value;
+    
     const sum = calculatesum(dob);
+   
     compareValues(sum,luckynumber.value)
+    }else{
+        alert("Please Enter valid information")
+    }
+    
 
 }
 function calculatesum(dob){
