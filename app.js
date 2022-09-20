@@ -15,12 +15,14 @@ const resultbox= document.querySelector("#resultbox")
 
 
 function confirmbirthdaylucky(){
-    if (dateofbirth.value !=="" || luckynumber.value !==""){
+    if (dateofbirth.value !=="" && luckynumber.value >0){
         const dob = dateofbirth.value;
     
     const sum = calculatesum(dob);
    
     compareValues(sum,luckynumber.value)
+
+    
     }else{
         alert("Please Enter valid information")
     }
