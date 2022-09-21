@@ -24,7 +24,7 @@ function confirmbirthdaylucky(){
 
     
     }else{
-        alert("Please Enter valid information")
+        resultbox.innerText=("Please Enter valid information")
     }
     
 
