@@ -1,3 +1,4 @@
 # is-your-birthday-lucky
-this app helps you to find  that if your birthday is lucky or not.?
+let's find out something cool that if your birthday is lucky or not.?
  It is made using CSS,HTML and JavaScript.
+ ⇉https://rahuljainisyourbirthdaylucky.netlify.app/
